@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores Matemáticos</title>
+</head>
+<body>
+
+    <h1>Calculadora Simples</h1>
+    
+    <script>
+
+        //solicita o primeiro operando
+        let operando1;
+        let operando2;
+
+        operando1 = parseFloat( prompt("Digite o primeiro numero") );
+        operando2 = parseFloat( prompt("Digite o segundo numero") );
+
+        document.write(`Adição: ${operando1} + ${operando2} = ${operando1 + operando2} <br>`);
+        document.write(`Subtração: ${operando1} - ${operando2} = ${operando1 - operando2} <br>`);
+        document.write(`Multiplicação: ${operando1} * ${operando2} = ${operando1 * operando2} <br>`);
+        document.write(`Divisão: ${operando1} / ${operando2} = ${operando1 / operando2} <br>`);
+        document.write(`Resto da divisão de ${operando1} / ${operando2} = ${operando1 % operando2} <br>`);
+        document.write(`Exponenciação: ${operando1} elevado a ${operando2} = ${operando1 ** operando2} <br>`);
+
+    </script>
+    
+</body>
+</html>
