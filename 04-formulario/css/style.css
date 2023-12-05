@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: azure;
+}
+
+#cpfInput{
+    padding: 5px;
+    font-size: 16px;
+}
+
+#validarButton{
+    background-color: #007bff;
+    padding: 7px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    border-style: dotted;
+    border-width: 2px;
+    border-color: aquamarine;
+}
+
+#validarButton:hover{
+    background-color:blue;
+}
+
+#carro{
+    width: 30%;
+    border: 200px;
+    filter: brightness(70%);
+}
